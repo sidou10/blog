@@ -49,10 +49,10 @@ export async function GET() {
       >
         <header tw="flex text-[36px] w-full">
           <div tw="font-bold" style={font("Inter 600")}>
-            Guillermo Rauch
+            Saad Bencherif
           </div>
           <div tw="grow" />
-          <div tw="text-[28px]">rauchg.com</div>
+          <div tw="text-[28px]">saadbencherif.com</div>
         </header>
 
         <main tw="flex mt-10 flex-col w-full" style={font("Roboto Mono 400")}>
@@ -69,7 +69,7 @@ export async function GET() {
             >
               <div tw="flex text-gray-400 w-24">
                 {posts[i - 1] === undefined ||
-                  getYear(post.date) !== getYear(posts[i - 1].date)
+                getYear(post.date) !== getYear(posts[i - 1].date)
                   ? getYear(post.date)
                   : ""}
               </div>
