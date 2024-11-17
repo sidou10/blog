@@ -10,15 +10,15 @@ import { doge } from "./doge";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Saad Bencherif's blog",
+  title: "Saad Bencherif's Blog",
   description:
-    "Guillermo Rauch is the CEO and founder of Vercel, a software engineer, and the creator of Next.js, Mongoose, Socket.io and other open source libraries.",
+    "Saad Bencherif is the co-founder and CPO of Presti AI. In this blog, he shares his entrepreneurial journey and learnings along the way.",
   openGraph: {
-    title: "Saad Bencherif's blog",
+    title: "Saad Bencherif's Blog",
     description:
-      "Guillermo Rauch is the CEO and founder of Vercel, a software engineer, and the creator of Next.js, Mongoose, Socket.io and other open source libraries.",
+      "Saad Bencherif is the co-founder and CPO of Presti AI. In this blog, he shares his entrepreneurial journey and learnings along the way.",
     url: "https://saadbencherif.com",
-    siteName: "Saad Bencherif's blog",
+    siteName: "Saad Bencherif's Blog",
     images: ["/opengraph-image"],
   },
   twitter: {

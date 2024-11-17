@@ -6,6 +6,10 @@ import { readFileSync } from "fs";
 import { join } from "path";
 import commaNumber from "comma-number";
 
+const photo = toArrayBuffer(
+  readFileSync(join(process.cwd(), "public/images/saadbencherif.png"))
+);
+
 // Fonts
 const inter300 = readFileSync(
   join(
@@ -40,12 +44,12 @@ export async function GET() {
           <div tw="flex flex-row">
             <div tw="flex">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              {/* <img
+              <img
                 tw="rounded-full h-74"
                 alt="Saad Bencherif"
                 // @ts-ignore
-                src={rauchgPhoto}
-              /> */}
+                src={photo}
+              />
             </div>
 
             <div tw="flex flex-col px-10 grow text-[28px] h-70 justify-center">
